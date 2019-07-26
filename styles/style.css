@@ -1,0 +1,16 @@
+/*
+Creator: Simone Medhanie 
+Date created: 07/26/2019
+Date last modified: 
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0d1f2d;
+  background-color: #fef9ff;
+}
+
+.jumbotron, footer {
+  text-align: center;
+  background-color: rgb(92, 122, 253);
+}
