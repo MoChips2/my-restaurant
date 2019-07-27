@@ -5,12 +5,48 @@ Date last modified:
 */
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0d1f2d;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   background-color: #fef9ff;
 }
 
-.jumbotron, footer {
+header, footer {
   text-align: center;
   background-color: rgb(92, 122, 253);
 }
+
+header {
+  padding: 2em;
+  border-bottom: thin solid black;
+}
+
+footer {
+  width: 100%;
+}
+
+.col-md-12 {
+  border-bottom: thin solid black;
+}
+
+nav a {
+  display: block;
+  float: left;
+  margin: 20px;
+  padding: 10px 20px;
+  background: bisque;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  max-width: 900px;
+}
+
+section {
+  background-color: rgb(228, 158, 67);
+}
+
+.text-center {
+  background-color: burlywood;
+}
+
