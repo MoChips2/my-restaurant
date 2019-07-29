@@ -7,12 +7,13 @@ Date last modified:
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  background-color: #fef9ff;
+  background-color: rgba(255, 204, 0, 0.829);
 }
 
 header, footer {
   text-align: center;
-  background-color: rgb(92, 122, 253);
+  background-color: #1D65A6;
+  color: white;
 }
 
 header {
@@ -33,7 +34,8 @@ nav a {
   float: left;
   margin: 20px;
   padding: 10px 20px;
-  background: bisque;
+  background: #36688D;
+  color: white;
 }
 
 .container {
@@ -43,10 +45,20 @@ nav a {
 }
 
 section {
-  background-color: rgb(228, 158, 67);
+  background-color: beige;
 }
 
-.text-center {
-  background-color: burlywood;
+article {
+  width: auto;
+  text-align: center;
 }
 
+#carousel1 {
+  background: #1D65A6;
+  color: white;
+  text-align: center;
+}
+
+.menu-items {
+  border: thin solid #1D65A6;
+}
